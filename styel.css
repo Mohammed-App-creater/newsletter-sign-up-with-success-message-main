@@ -13,9 +13,9 @@ body {
   align-items: center;
   background-color: hsl(235, 18%, 26%);
 }
-span{
-    color: black;
-    font-weight: 700;
+span {
+  color: black;
+  font-weight: 700;
 }
 
 .Container {
@@ -51,7 +51,7 @@ span{
   margin-bottom: 1rem;
 }
 
- .labels {
+.labels {
   font-size: small;
   font-weight: 700;
   display: flex;
@@ -85,8 +85,8 @@ button {
   cursor: pointer;
 }
 
- button:hover,
- button:active {
+button:hover,
+button:active {
   background-image: linear-gradient(to right, #f8316d, #ff6b30);
   box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.5);
 }
@@ -97,23 +97,23 @@ button {
 }
 
 .ThankyouContainer {
-    width: 30%;
-    background: #fff;
-    display: flex;
-    display: none;
-    flex-direction: column;
-    gap: 2.2rem;
-    padding: 4rem;
-    border-radius: 5%;
+  width: 30%;
+  background: #fff;
+  display: flex;
+  display: none;
+  flex-direction: column;
+  gap: 2.2rem;
+  padding: 4rem;
+  border-radius: 5%;
 }
 
 .ThankyouContainer h1 {
-    font-size: 54px;
-    font-weight: 700;
-  }
+  font-size: 54px;
+  font-weight: 700;
+}
 
-#enValidEmail{
-    display: none;
+#enValidEmail {
+  display: none;
 }
 
 .attribution {
@@ -127,64 +127,57 @@ button {
   color: hsl(24, 93%, 56%);
 }
 
-@media screen and (max-width: 600px){
-    body{
-        display: block;
-    }
-    .Container{
-        width: 100%;
-        height: 100vh;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: start;
-        border-radius: 0;
-        padding: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        gap: 0.4rem;
-    }
+@media screen and (max-width: 600px) {
+  body {
+    display: block;
+  }
+  .Container {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: start;
+    border-radius: 0;
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    gap: 0.4rem;
+  }
 
-    .textPart{
-        width: 90%;
-        padding-left: 0;
-        padding-bottom: 0;
-    }
+  .textPart {
+    width: 90%;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
 
-    .Container h1{
-        font-size: 42px;
-    }
+  .Container h1 {
+    font-size: 42px;
+  }
 
-    .Images{
-        display: block;
-    }
+  .Images {
+    display: block;
+  }
 
-    .ThankyouContainer{
-        width: 100%;
-        height: 100%;
-        border-radius: 0;
-        padding: 1.5rem;
-    }
+  .ThankyouContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    padding: 1.5rem;
+  }
 
-    .successful{
-        margin-top: 50%;
-    }
+  .successful {
+    margin-top: 50%;
+  }
 
-    .ThankyouContainer button{
-        position: absolute;
-        bottom: 6%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 90%;
-    }
+  .ThankyouContainer button {
+    position: absolute;
+    bottom: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
 
-
-
-    .attribution{
-        color: black;
-        left: 50%;
-        bottom: 5px;
-        transform: translateX(-50%);
-        width: 100%;
-    }
+  .attribution {
+    display: none;
+  }
 }
-
