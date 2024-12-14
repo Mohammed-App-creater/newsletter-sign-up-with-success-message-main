@@ -128,9 +128,12 @@ button {
 }
 
 @media screen and (max-width: 600px){
+    body{
+        display: block;
+    }
     .Container{
         width: 100%;
-        height: 100%;
+        height: 100vh;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: start;
@@ -138,12 +141,13 @@ button {
         padding: 0;
         padding-top: 0;
         padding-bottom: 0;
+        gap: 0.4rem;
     }
 
     .textPart{
         width: 90%;
         padding-left: 0;
-        margin-top: 1.6rem;
+        padding-bottom: 0;
     }
 
     .Container h1{
@@ -177,6 +181,10 @@ button {
 
     .attribution{
         color: black;
+        left: 50%;
+        bottom: 5px;
+        transform: translateX(-50%);
+        width: 100%;
     }
 }
 
